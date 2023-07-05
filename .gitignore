@@ -1,0 +1,11 @@
+# Keep environment variables out of version control
+.env
+
+# api
+api/node_modules
+
+# client
+client/.next
+client/node_modules
+client/public
+client/src
