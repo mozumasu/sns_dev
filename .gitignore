@@ -1,11 +1,12 @@
-# Keep environment variables out of version control
+##共通
+##名前指定で除外
 .env
+node_modules/
 
-# api
-api/node_modules
+##ディレクトリ＋ファイル名で除外指定
 
-# client
-client/.next
-client/node_modules
-client/public
-client/src
+##バックエンド(api)
+
+
+##フロントエンド(client)
+/client/.next/
